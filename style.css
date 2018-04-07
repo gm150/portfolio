@@ -1,0 +1,86 @@
+* {
+  box-sizing: border-box;
+}
+body {
+  margin: 0;
+  font-size: 1em;
+  /* Use em's rather than pt or px as it respects people's font sizing rather than overriding it.
+  1 em 1x their standard font size */
+  font-family: Arial;
+  background-color: #ffffff;
+}
+/* article {
+  width: 100%;
+  background-color: #ffffff;
+  margin: 10px;
+  min-height: 70px;
+  padding: 10px;
+} */
+header {
+  background-color: #f7f7f7;
+  min-height: 100vh;
+  /* veiw port height is used to gain a percentage of your screen rather than using fixed values */
+}
+header main {
+  text-align: center;
+  padding-top: 3em;
+  font-size: 1.25em;
+}
+h1 {
+  text-transform: uppercase;
+  font-size: 2.5em;
+  letter-spacing: 0.5em;
+}
+nav {
+  background-color: #595d5e;
+  position: fixed;
+  width: 100%;
+}
+nav a {
+  color: white
+}
+a {
+  text-decoration: none; /* removes underlines from archor links */
+}
+nav li {
+  display: inline-block; /* Lays list items out horizontally */
+  padding: 1em;
+  padding-right: 5em;
+}
+nav ul {
+  margin: 0;
+}
+.about-me {
+  padding: 3em 0;
+  line-height: 2;
+  text-align: justify;
+}
+.content {
+  width: 50%;
+  margin: 0 auto;
+}
+.projects {
+  line-height: 2;
+  padding: 3em 0;
+  background-color: #000000
+}
+.projects img {
+  width: 30%;
+  padding: 30px;
+  padding-left: 0;
+}
+/* main {
+  width: 70%;
+  background-color: #ffffff;
+  margin: 10px;
+  min-height: 30px;
+  padding: 10px;
+} */
+img {
+  width: 100%
+}
+footer {
+  background-color: #595d5e;
+  min-height: 10em;
+  padding: 10px;
+}
